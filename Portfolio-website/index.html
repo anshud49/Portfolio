@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Playpen+Sans:wght@300&family=Roboto:ital,wght@0,500;1,900&family=Ubuntu&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6e33bb79de.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- header -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="a.jpeg" alt="" id="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="headertext">
+                <p>Competetive Programmer</p>
+                <h1>Hi, I am <span>Anshu Dwivedi</span></h1>
+            </div>
+        </div>
+    </div>
+    <!-- about  -->
+    <div id="about">
+        <div class="container c">
+            <div class="row">
+                <div class="col1 ">
+                    <img src="Anshu5.jpeg">
+                </div>
+                <div class="col2">
+                    <span id="abme">About Me</span>
+                    <p>I'm an ardent coder and a competitive programming enthusiast, well-versed in C++ and familiar
+                        with C. I specialize in Data Structures and Algorithms and have hands-on experience in front-end
+                        web development. I excel in solving intricate problems and I am committed to lifelong learning.
+                        I'm also deeply involved in the world of competitive programming.I'm dedicated to crafting
+                        innovative solutions that address complex challenges</p>
+                    <div class="tabtitles">
+                        <p class="tablinks activelink" onclick="opentabs('skills')">Skills</p>
+                        <p class="tablinks" onclick="opentabs('experience')">Experience</p>
+                        <p class="tablinks" onclick="opentabs('education')">Education</p>
+                    </div>
+                    <div class="tabcontents cp activetabs" id="skills">
+                        <ul>
+                            <li><span>C++</span><br> Solved 400+ problems in C++ across different platforms </li>
+                            <li><span>Competetive Programmer </span><br>Pupil <a
+                                    href="https://codeforces.com/profile/anshu_dwivedi" target="_blank">Codeforces </a>,
+                                2 star <a href="https://www.codechef.com/users/anshu_dwivedi" target="_blank">Codechef
+                                </a>, <a href="https://leetcode.com/anshudwivedi49/" target="_blank">Leetcode</a>(1494)
+                                , 5 star <a href="https://www.hackerrank.com/profile/Anshudwivedi49"
+                                    target="_blank">Hackerrank</a> </li>
+                            <li><span>Frontend Developer </span><br> One can see my projects here</li>
+                        </ul>
+                    </div>
+                    <div class="tabcontents" id="experience">
+                        <ul>
+                            <li>Worked as Question and Answer Expert in Physics @Chegg, India</li>
+                            <li>Guitar Mentor from last 4 years</li>
+                        </ul>
+                    </div>
+                    <div class="tabcontents" id="education">
+                        <ul>
+                            <li><span>Harcourt Butler Technical University(2021-2025)</span><br>B.tech in Electronics
+                                Engineering</li>
+                            <li><span>Onkareshwar Saraswati Vidya Niketan</span><br>Intermediate</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- service -->
+    <div id="services">
+        <div class="container">
+            <span id="abme">My Services</span>
+            <div class="serviceslist">
+                <div>
+                    <i class="fa-solid fa-code fa-fade"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium odio voluptas nisi iste
+                        assumenda inventore illum quis optio reiciendis? Sequi!</p>
+                    <a href="#" target="_blank">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-android fa-bounce"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium odio voluptas nisi iste
+                        assumenda inventore illum quis optio reiciendis? Sequi!</p>
+                    <a href="#" target="_blank">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop fa-flip"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium odio voluptas nisi iste
+                        assumenda inventore illum quis optio reiciendis? Sequi!</p>
+                    <a href="#" target="_blank">Learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- portfolio -->
+    <div id="portfolio">
+        <div class="container">
+            <span id="abme">My Work</span>
+            <div class="worklist">
+                <div class="work">
+                    <img src="work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio enim harum maiores. Soluta, expedita itaque.</p>
+                        <a href="#" target="_blank"><i class="fa-solid fa-link fa-flip"></i></a>
+                    </div>
+                </div>
+               
+                <div class="work">
+                    <img src="work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Online shopping App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio enim harum maiores. Soluta, expedita itaque.</p>
+                        <a href="#" target="_blank"><i class="fa-solid fa-link fa-flip"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Anshu6.jpg" alt="">
+                    <div class="layer">
+                        <h3>Multi-instrumentalist</h3>
+                        <p> I'm playing harmonium from last 10 years and guitar from last 8 years.Contact for Shows and Guitar Classes.</p>
+                        <a href="https://www.instagram.com" target="_blank"><i class="fa-solid fa-link fa-flip"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <span id="abme">Contact me</span>
+                    <p><i class="fa-solid fa-square-envelope"></i>anshudwived135@gmail.com</p>
+                     <div class="socialicons">
+                        <a href="https://www.linkedin.com/in/anshudwivedi49/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/acoustic._.anshu/?utm_medium=copy_link"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/anshu.dwivedi.1806"><i class="fa-brands fa-facebook"></i></a>
+                     </div>
+                     <a href="Anshu_Dwivedi_Resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" , placeholder="Your Name" required>
+                        <input type="email" name="E-mail" placeholder="Your e-mail" required>
+                        <textarea name="Message"  rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright © Anshu.</p>
+        </div>
+    </div>
+    <script>
+        var talinks = document.getElementsByClassName("tablinks");
+        var tacontents = document.getElementsByClassName("tabcontents");
+        function opentabs(tabname) {
+            for (talink of talinks) {
+                talink.classList.remove("activelink");
+            }
+            for (tacontent of tacontents) {
+                tacontent.classList.remove("activetabs");
+            }
+            event.currentTarget.classList.add("activelink");
+            document.getElementById(tabname).classList.add("activetabs");
+        }
+
+        
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbw4EV1H52koiUXx8KmzNnH9DxHUKCC25LPydDM8vRx9O-CaNoS6elVeD9jrrwOFK5Nu8g/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message sent succesfully"
+                setTimeout(function(){
+                    msg.innerHTML="";
+                },2000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+
+</html>

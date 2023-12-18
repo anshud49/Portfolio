@@ -493,11 +493,3 @@ form .btn2
     margin-top: -40px;
     display: block;
 }
-/* ---------------- */
-@media only screen and (max-width: 600px)
-{
-    #header
-    {
-        background-image: url();
-    }
-}

@@ -389,6 +389,10 @@ i
     align-items: center;
     justify-content: center;
 }
+.layer a i
+{
+    padding-bottom:25px;
+}
 
 .work:hover {
     transform: scale(1.1);

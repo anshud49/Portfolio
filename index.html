@@ -22,13 +22,16 @@
         <div class="container">
             <nav>
                 <img src="a.jpeg" alt="" id="logo">
-                <ul>
+                <ul id="sidemenu">
                     <li><a href="#header">Home</a></li>
                     <li><a href="#abme">About</a></li>
                     <li><a href="#services">Coding Profiles</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#contact">Contact</a></li>
+                    <i class=" fa fa-solid fa-xmark" onclick="closemenu()"></i>
+                 
                 </ul>
+                <i class="fa fa-solid fa-bars" onclick="openmenu()"></i>
             </nav>
             <div class="headertext">
                 <p>Competetive Programmer</p>
@@ -41,11 +44,11 @@
     <div id="about">
         <div class="container c">
             <div class="row">
-                <div class="col1 ">
+                <div class="col1">
                     <img src="Anshu5.jpeg">
                 </div>
                 <div class="col2">
-                    <span id="abme">About Me</span>
+                    <h1 id="abme">About Me</h1>
                     <p>I'm an ardent coder and a competitive programming enthusiast, well-versed in C++ and familiar
                         with C. I specialize in Data Structures and Algorithms and have hands-on experience in front-end
                         web development. I excel in solving intricate problems and I am committed to lifelong learning.
@@ -211,6 +214,17 @@
             })
             .catch(error => console.error('Error!', error.message))
         })
+      </script>
+      <script>
+         var sidemeu=document.getElementById("sidemenu");
+         function openmenu()
+         {
+            sidemeu.style.right="0";
+         }
+         function closemenu()
+         {
+            sidemeu.style.right="-200px";
+         }
       </script>
 </body>
 

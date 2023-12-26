@@ -216,6 +216,10 @@ nav ul li a:hover::after {
   
 }
 
+.serviceslist  img
+{
+     margin:20px;
+}
 .serviceslist div {
     background: #262626;
     padding: 40px;
@@ -270,7 +274,7 @@ i
 
 #hack
 {
-   margin-top: 0px;
+   margin-top: 20px;
 }
 #s1
 {

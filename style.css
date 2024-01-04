@@ -601,3 +601,14 @@ form .btn2
         font-size: 14px;
     }
  }
+ @media only screen and (max-width: 600px)
+ {
+    #header
+    {
+       height:90vh;
+       background-image: url('Anshu1phone.png');
+       background-size: 50%;
+      background-position-x:right;
+      background-position-y: 40vh;
+     }
+ }

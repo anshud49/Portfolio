@@ -32,7 +32,7 @@ div
 }
 .container {
     
-    padding: 10px 10%;
+    padding: 10px 8%;
   
 }
 
@@ -535,7 +535,7 @@ form .btn2
       }
       .headertext
       {
-        margin-top: 40%;
+        margin-top: 50%;
         font-size: 16px;
       }
       .headertext h1
@@ -605,10 +605,23 @@ form .btn2
  {
     #header
     {
-       height:70vh;
+       height:90vh;
        background-image: url('Anshu1phone.png');
-       background-size: 50%;
+       background-size: 60%;
       background-position-x:right;
-      background-position-y: 35vh;
+      background-position-y: 50vh;
+     }
+     .headertext
+      {
+        margin-top: 60%;
+        font-size: 16px;
+      }
+      .headertext h1
+      {
+          font-size: 25px;
+      }
+     #logo
+     {
+        width:18%;
      }
  }

@@ -215,7 +215,7 @@ nav ul li a:hover::after {
 
 .serviceslist {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
     grid-gap: 40px;
     margin-top: 50px;
   
@@ -223,9 +223,11 @@ nav ul li a:hover::after {
 
 .serviceslist  img
 {
-     margin:20px;
+     margin:0 0px ;
 }
 .serviceslist div {
+    position: relative;
+    min-height: 45vh;
     background: #262626;
     padding: 40px;
     font-size: 13px;
@@ -247,11 +249,13 @@ nav ul li a:hover::after {
 }
 
 .serviceslist div a {
+    position: absolute;
+    bottom: 40px;
+    left:40px;
     text-decoration: none;
     color: #fff;
     font-size: 12px;
-    margin-top: 20px;
-    display: inline-block;
+    opacity: 0.7;
 }
 
 .serviceslist div:hover {
@@ -273,13 +277,13 @@ i
 #cf
 {
     margin-bottom: 10px;
-    width: 40%;
+    width: 30%;
     height:10vh;
 }
 
 #hack
 {
-   margin-top: 20px;
+   margin-top: 0px;
 }
 #s1
 {
@@ -291,54 +295,6 @@ i
 }
 
 
-.bounce {
-    animation: bounce 2s ease infinite;
-  }
-  @keyframes bounce {
-      70% { transform:translateY(0%); }
-      80% { transform:translateY(-15%); }
-      90% { transform:translateY(0%); }
-      95% { transform:translateY(-7%); }
-      97% { transform:translateY(0%); }
-      99% { transform:translateY(-3%); }
-      100% { transform:translateY(0); }
-  }
-  
-  .bounce-in-right {
-    animation: bounce-in-right 2s ease infinite;
-  }
-  @keyframes bounce-in-right {
-    0% {
-      opacity: 0;
-      transform: translateX(200px);
-    }
-    60% {
-      opacity: 1;
-      transform: translateX(-30px);
-    }
-    80% { transform: translateX(10px); }
-    100% { transform: translateX(0); }
-  }
-
-
-  .hinge {
-    animation: hinge 2s ease infinite;
-  }
-  @keyframes hinge {
-    0% { transform: rotate(0); transform-origin: top left; animation-timing-function: ease-in-out; }  
-    20%, 60% { transform: rotate(60deg); transform-origin: top left; animation-timing-function: ease-in-out; }  
-    40% { transform: rotate(40deg); transform-origin: top left; animation-timing-function: ease-in-out; } 
-    80% { transform: rotate(40deg) translateY(0); opacity: 1; transform-origin: top left; animation-timing-function: ease-in-out; } 
-    100% { transform: translateY(100px); opacity: 0; }
-  }
-  
-  .elastic-spin {
-    animation: elastic-spin 2s infinite ease;
-  }
-  @keyframes elastic-spin {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(720deg); }
-  }
   
   
 /* portfolio */

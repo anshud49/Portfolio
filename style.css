@@ -18,7 +18,7 @@ body {
 #header {
     width: 100%;
     height: 110vh;
-    background-image: url('Anshu1.png');
+    background-image: url('images/Anshu1.png');
     background-size: 39%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -278,8 +278,9 @@ i
 {
     margin-bottom: 10px;
     width: 30%;
-    height:10vh;
+    height:11vh;
 }
+
 
 #hack
 {
@@ -320,7 +321,7 @@ i
 .ExpHead
 {
     font-family: "Roboto Slab", serif;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 18px;
 }
 .work img {
@@ -335,6 +336,10 @@ company
   cursor: pointer;
 }
 
+#codolio
+{
+    
+}
 company a
 {
  text-decoration: none;
@@ -493,7 +498,7 @@ form .btn2
      #header
      {
         height:100vh;
-        background-image: url('Anshu1phone.png');
+        background-image: url('images/Anshu1phone.png');
         background-size: 50%;
        background-position-x:right;
        background-position-y: 50vh;
@@ -577,7 +582,7 @@ form .btn2
     #header
     {
        height:90vh;
-       background-image: url('Anshu1phone.png');
+       background-image: url('images/Anshu1phone.png');
        background-size: 60%;
       background-position-x:right;
       background-position-y: 50vh;

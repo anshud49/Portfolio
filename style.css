@@ -189,12 +189,24 @@ nav ul li a:hover::after {
     cursor: pointer;
 }
 
-.tabcontents ul li {
+.tabcontents ul li  {
     list-style: disc;
+    text-decoration: none;
     margin: 10px 0;
 }
 
 .tabcontents ul li span {
+    color: #b54769;
+    font-size: 14px;
+}
+
+.tabcontents ul li a {
+    list-style: disc;
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+.tabcontents ul li span a{
     color: #b54769;
     font-size: 14px;
 }
@@ -323,6 +335,7 @@ i
     font-family: "Roboto Slab", serif;
     font-weight: 400;
     font-size: 18px;
+    color: #b54769;
 }
 .work img {
     width: 92%;

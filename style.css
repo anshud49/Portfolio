@@ -349,10 +349,7 @@ company
   cursor: pointer;
 }
 
-#codolio
-{
-    
-}
+
 company a
 {
  text-decoration: none;
@@ -382,8 +379,14 @@ company a
     margin-bottom: 20px;
 }
 
-
-.layer a {
+.layer p a
+{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    
+}
+.link{
     margin-top: 20px;
     color: #ff004f;
     text-decoration: none;
@@ -397,7 +400,7 @@ company a
     justify-content: center;
    
 }
-.layer a i
+.link i
 {
    padding-bottom:25px;
 }
